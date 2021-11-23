@@ -21,9 +21,9 @@ const persistConfig = {
 };
 
 const rootReducer = combineReducers({
+    reg: regReducer,
     auth: authReducer, 
-    // countersPage: countersPageReducer,
-    // todoPage: todoListPageReducer,
+    
     pokemonsPage: pokemonsPageReducer,
     // pokemonDetails: pokemonsDetailsPageReducer,
 });

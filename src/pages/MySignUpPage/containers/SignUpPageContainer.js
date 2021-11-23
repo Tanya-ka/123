@@ -12,7 +12,7 @@ const SignUpPageContainer = () => {
 
     const history = useHistory();
 
-    const { isReg } = useSelector((state) => state.auth);
+    const { isReg } = useSelector((state) => state.reg);
 
     console.log(isReg)
     const [formData, handleChange, handleReset] = useForm({

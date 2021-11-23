@@ -5,6 +5,7 @@ import CustomPagination from "../../../../commonComponents/CustomPagination";
 
 import styles from "./styles.module.scss";
 import PokeCard from "../../../../commonComponents/PokeCard";
+import { styled } from "@mui/system";
 
 const PokemonPageLayout = ({ 
     list, 

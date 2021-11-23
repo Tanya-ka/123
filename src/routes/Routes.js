@@ -6,7 +6,7 @@ import { Switch } from "react-router-dom";
 import MySignUpPageContainer from "../pages/MySignUpPage/containers/SignUpPageContainer";
 import LoginPageContainer from "../pages/LoginPage/containers/LoginPageContainer";
 import PokemonPageContainer from "../pages/PokemonsPage/containers/PokemonPageContainer";
-import PokemonDetailedPageContainer from "../pages/ProductAPage/containers/PokemonDetailsPageContainer";
+import PokemonDetailedPageContainer from "../pages/PokemonDetailPage/containers/PokemonDetailsPageContainer";
 
 
 import { ROUTES } from "./routeNames";
@@ -25,9 +25,14 @@ const Routes = () => {
         component={PokemonPageContainer}
       />
       <Route
-        path={ROUTES.PRODUCT}
+        path={ROUTES.POKEMONS_DETAILS}
         component={PokemonDetailedPageContainer}
       />
+      
+      {/* <Route
+        path={ROUTES.PRODUCT}
+        component={PokemonDetailedPageContainer}
+      /> */}
       {/* <Route
         path={ROUTES.BASKET}
         component={BasketContainer}

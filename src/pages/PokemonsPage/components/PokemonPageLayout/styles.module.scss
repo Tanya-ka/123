@@ -1,0 +1,16 @@
+// .wrapper {
+//     background: yellow;
+// }
+
+.cardsArea {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 75vh;
+    overflow-y: auto;
+}
+
+.h1 {
+    text-align: center;
+    color: rgb(250, 249, 249);
+}
